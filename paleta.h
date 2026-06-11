@@ -38,7 +38,7 @@ class Paleta {
          * @param c A cor a ser adicionada.
          * @return true se a adição for bem sucedida, false se não for possível.
          */
-        void adicionarCor(Cor c);
+        void adicionarCor(Cor c); 
 
         /**
          * @brief Função para consultar a quantidade de cores.
