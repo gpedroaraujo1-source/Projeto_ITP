@@ -51,7 +51,11 @@ int Paleta::getNumeroCores() {
 }
 
 Cor Paleta::getCorIndice(int indice) {
-    return cores[indice];
+    if (indice >= 0 && indice < n_cores) {
+        return cores[indice];
+    } else {
+        return Cor {0, 0 ,0};
+    }
 }
 
 Paleta::~Paleta() {
